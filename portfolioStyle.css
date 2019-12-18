@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* I think this will eliminate the dots associated, and inline is a good way
+of positioning things within a confined area */
+ul {
+    /*this line of code had no effect on the I had to hard code this in
+    with the style property  in actual DOM for the effect to work 
+    list-style-type:none; */  
+    background-color: #333; 
+    margin:0;
+    padding:0;
+    overflow:hidden;  
+}
+
+/* By specifically targeting actual list you position the nav buttons to be 
+horizontal */
+li {
+    display:inline;
+    float: right;
+    margin: 5px;  
+}
+
+a {
+    background-color: #dddddd;
+    display:block;
+    padding:8px;
+}
+
+.footerData {
+    display: inline-block;
+    width:100%; 
+    text-align: center;
+    margin-top: 300px;
+}
+
+/*/after painfully altering and reading this block of code transpoded
+the screen for the images*/
+.imgRow {
+    display:flex;
+}
+
+.row {
+    display:flex;
+}
+
+.column {
+    flex:30%;
+    padding:5px;
+}
+
+.center {
+    margin-left:50px;
+}
+
+/*Attempted to rotate image however this block of code doesn't work
+upond further reading I notied this "The rotation property is not 
+supported in any of the major browsers.--> this block of
+code is null and void 
+.content.meande {
+    rotation-point: 50% 50%;
+    rotation: 270deg;
+}v  */
+
+
+  

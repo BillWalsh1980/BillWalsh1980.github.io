@@ -1,0 +1,59 @@
+body .msg:hover {
+  
+  background-image: url("https://cdn-s3.si.com/images/1985-0120-Super-Bowl-XIX-Joe-Montana-05822975.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.header_list {
+    display:block;
+}
+
+
+ul {
+    list-style-type:none; 
+  
+}
+
+li {
+    float:right;
+    margin: 5px;
+    }
+
+a:hover {
+    background-color: yellow;   
+}
+
+.email {
+  display:inline-block;
+  margin-left: 35px;
+  
+}
+.full_name {
+  display:inline-block;
+  margin-left: 5PX;
+}
+
+.msg {
+  height: 300px;
+  margin-bottom: 10px;
+  width: 600px;
+}
+
+.footerData .footerData2{
+  display: inline-block;
+  margin-top: 100px;
+  text-align:center;
+  width:100%;
+}
+
+.footerData2 {
+  display: inline-block;
+  margin-top: 0px;
+  text-align:center;
+  width:100%;
+  background-color:gray;
+}
+
+
